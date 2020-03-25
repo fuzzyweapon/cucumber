@@ -7,7 +7,7 @@ then
 fi
 
 if [ ! -f "/app/RELEASE_PROCESS.md" ]; then
-  >&2 echo -e "\033[0;31mReleases must be done from withing Docker\033[0m"
+  >&2 echo -e "\033[0;31mReleases must be done from within Docker\033[0m"
 fi
 
 if [ -z ${GIT_CRYPT_KEY_BASE64} ]; then
